@@ -1,0 +1,33 @@
+/* src/styles.css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  /* Clean, cool modern canvas background */
+  background: #f1f5f9; 
+  color: #0f172a;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 3rem 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px; /* Smooth modern curve, not a massive bubble */
+  border: 1px solid #e2e8f0;
+  /* Premium crisp modern card drop-shadow */
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+}
